@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520216A229C021E800244213 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520216A129C021E800244213 /* GeometryReaderBootcamp.swift */; };
+		520216A429C02C6800244213 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520216A329C02C6800244213 /* MultipleSheetsBootcamp.swift */; };
+		520216A629C03CA900244213 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520216A529C03CA900244213 /* MaskBootcamp.swift */; };
+		520216A829C055E300244213 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520216A729C055E300244213 /* SoundsBootcamp.swift */; };
+		520216AB29C05CAC00244213 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 520216AA29C05CAC00244213 /* badum.mp3 */; };
+		520216AD29C05CC200244213 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 520216AC29C05CC200244213 /* tada.mp3 */; };
 		52A66D5929BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A66D5829BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift */; };
 		52A66D5B29BECFD200806DBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A66D5A29BECFD200806DBE /* ContentView.swift */; };
 		52A66D5D29BECFD600806DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A66D5C29BECFD600806DBE /* Assets.xcassets */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520216A129C021E800244213 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
+		520216A329C02C6800244213 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		520216A529C03CA900244213 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		520216A729C055E300244213 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		520216AA29C05CAC00244213 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		520216AC29C05CC200244213 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		52A66D5529BECFD200806DBE /* SwiftfukThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfukThinkingContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A66D5829BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfukThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		52A66D5A29BECFD200806DBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520216A929C05C9200244213 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				520216AC29C05CC200244213 /* tada.mp3 */,
+				520216AA29C05CAC00244213 /* badum.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		52A66D4C29BECFD200806DBE = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +92,11 @@
 				52A66D6C29BF001200806DBE /* DragGestureBootcamp.swift */,
 				52A66D6E29BF091000806DBE /* DragGestureBootcamp2.swift */,
 				52A66D7029BF165D00806DBE /* ScrollViewReaderBootcamp.swift */,
+				520216A129C021E800244213 /* GeometryReaderBootcamp.swift */,
+				520216A329C02C6800244213 /* MultipleSheetsBootcamp.swift */,
+				520216A529C03CA900244213 /* MaskBootcamp.swift */,
+				520216A729C055E300244213 /* SoundsBootcamp.swift */,
+				520216A929C05C9200244213 /* Sounds */,
 				52A66D5C29BECFD600806DBE /* Assets.xcassets */,
 				52A66D5E29BECFD600806DBE /* Preview Content */,
 			);
@@ -143,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520216AD29C05CC200244213 /* tada.mp3 in Resources */,
+				520216AB29C05CAC00244213 /* badum.mp3 in Resources */,
 				52A66D6029BECFD600806DBE /* Preview Assets.xcassets in Resources */,
 				52A66D5D29BECFD600806DBE /* Assets.xcassets in Resources */,
 			);
@@ -155,12 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520216A829C055E300244213 /* SoundsBootcamp.swift in Sources */,
 				52A66D6F29BF091000806DBE /* DragGestureBootcamp2.swift in Sources */,
+				520216A629C03CA900244213 /* MaskBootcamp.swift in Sources */,
 				52A66D6D29BF001200806DBE /* DragGestureBootcamp.swift in Sources */,
 				52A66D5B29BECFD200806DBE /* ContentView.swift in Sources */,
 				52A66D7129BF165D00806DBE /* ScrollViewReaderBootcamp.swift in Sources */,
+				520216A429C02C6800244213 /* MultipleSheetsBootcamp.swift in Sources */,
 				52A66D6729BED0BC00806DBE /* LongPressedGestureBootcamp.swift in Sources */,
 				52A66D6929BEE1D200806DBE /* MagnificationGestureBootcamp.swift in Sources */,
+				520216A229C021E800244213 /* GeometryReaderBootcamp.swift in Sources */,
 				52A66D5929BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift in Sources */,
 				52A66D6B29BEEB9B00806DBE /* RotationGestureBootcamp.swift in Sources */,
 			);

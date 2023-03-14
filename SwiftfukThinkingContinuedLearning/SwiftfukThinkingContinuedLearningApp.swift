@@ -12,9 +12,10 @@ struct SwiftfukThinkingContinuedLearningApp: App {
     var body: some Scene {
         WindowGroup {
 //            DragGestureBootcamp()
-            ContentView()
+//            ContentView()
 //            RotationGestureBootcamp()
 //            MagnificationGestureBootcamp()
+            GeometryReaderBootcamp()
         }
     }
 }
