@@ -17,6 +17,7 @@ class SoundManager{
     enum soundOption : String {
         case tada
         case badum
+        case dust
     }
     
     func playSound(sound: soundOption) {
@@ -39,6 +40,9 @@ struct SoundsBootcamp: View {
             }
             Button("Play  Sound 2") {
                 SoundManager.instance.playSound(sound: .badum)
+            }
+            Button("Play Sound 3") {
+//                SoundManager.instance.playSound(sound: .dust)
             }
         }
     }

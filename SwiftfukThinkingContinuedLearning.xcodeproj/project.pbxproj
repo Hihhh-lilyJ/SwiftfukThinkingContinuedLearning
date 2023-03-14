@@ -13,6 +13,7 @@
 		520216A829C055E300244213 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520216A729C055E300244213 /* SoundsBootcamp.swift */; };
 		520216AB29C05CAC00244213 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 520216AA29C05CAC00244213 /* badum.mp3 */; };
 		520216AD29C05CC200244213 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 520216AC29C05CC200244213 /* tada.mp3 */; };
+		520216B129C0674B00244213 /* dust.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 520216B029C0674B00244213 /* dust.mp3 */; };
 		52A66D5929BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A66D5829BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift */; };
 		52A66D5B29BECFD200806DBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A66D5A29BECFD200806DBE /* ContentView.swift */; };
 		52A66D5D29BECFD600806DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A66D5C29BECFD600806DBE /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		520216A729C055E300244213 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
 		520216AA29C05CAC00244213 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		520216AC29C05CC200244213 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		520216B029C0674B00244213 /* dust.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dust.mp3; sourceTree = "<group>"; };
 		52A66D5529BECFD200806DBE /* SwiftfukThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfukThinkingContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A66D5829BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfukThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		52A66D5A29BECFD200806DBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		520216A929C05C9200244213 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				520216B029C0674B00244213 /* dust.mp3 */,
 				520216AC29C05CC200244213 /* tada.mp3 */,
 				520216AA29C05CAC00244213 /* badum.mp3 */,
 			);
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520216AD29C05CC200244213 /* tada.mp3 in Resources */,
+				520216B129C0674B00244213 /* dust.mp3 in Resources */,
 				520216AB29C05CAC00244213 /* badum.mp3 in Resources */,
 				52A66D6029BECFD600806DBE /* Preview Assets.xcassets in Resources */,
 				52A66D5D29BECFD600806DBE /* Assets.xcassets in Resources */,
