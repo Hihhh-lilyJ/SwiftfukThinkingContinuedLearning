@@ -15,7 +15,8 @@ struct SwiftfukThinkingContinuedLearningApp: App {
 //            ContentView()
 //            RotationGestureBootcamp()
 //            MagnificationGestureBootcamp()
-            GeometryReaderBootcamp()
+//            GeometryReaderBootcamp()
+            LocalNotificationBootcamp()
         }
     }
 }
