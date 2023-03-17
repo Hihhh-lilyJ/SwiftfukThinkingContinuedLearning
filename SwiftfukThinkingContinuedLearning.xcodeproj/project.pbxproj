@@ -33,6 +33,9 @@
 		52B5D36229C2F5520088D834 /* TypeAliasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5D36129C2F5520088D834 /* TypeAliasBootcamp.swift */; };
 		52B5D36629C2F7F90088D834 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5D36529C2F7F90088D834 /* EscapingBootcamp.swift */; };
 		52B5D36829C2FF530088D834 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5D36729C2FF530088D834 /* CodableBootcamp.swift */; };
+		52B5D3A029C4A21F0088D834 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5D39F29C4A21F0088D834 /* DownloadWithEscapingBootcamp.swift */; };
+		52B5D3A229C4BDD60088D834 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5D3A129C4BDD60088D834 /* TimerBootcamp.swift */; };
+		52B5D3A429C4C3CF0088D834 /* SubscriberBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5D3A329C4C3CF0088D834 /* SubscriberBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +66,9 @@
 		52B5D36129C2F5520088D834 /* TypeAliasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliasBootcamp.swift; sourceTree = "<group>"; };
 		52B5D36529C2F7F90088D834 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		52B5D36729C2FF530088D834 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		52B5D39F29C4A21F0088D834 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
+		52B5D3A129C4BDD60088D834 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		52B5D3A329C4C3CF0088D834 /* SubscriberBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 				52B5D36129C2F5520088D834 /* TypeAliasBootcamp.swift */,
 				52B5D36529C2F7F90088D834 /* EscapingBootcamp.swift */,
 				52B5D36729C2FF530088D834 /* CodableBootcamp.swift */,
+				52B5D39F29C4A21F0088D834 /* DownloadWithEscapingBootcamp.swift */,
+				52B5D3A129C4BDD60088D834 /* TimerBootcamp.swift */,
+				52B5D3A329C4C3CF0088D834 /* SubscriberBootCamp.swift */,
 				520216A929C05C9200244213 /* Sounds */,
 				52A66D5C29BECFD600806DBE /* Assets.xcassets */,
 				52A66D5E29BECFD600806DBE /* Preview Content */,
@@ -218,6 +227,7 @@
 				52B5D36029C2F0D90088D834 /* WeakSelfBootcamp.swift in Sources */,
 				523350F029C231EE00595F3E /* HashableBootcamp.swift in Sources */,
 				520216A829C055E300244213 /* SoundsBootcamp.swift in Sources */,
+				52B5D3A429C4C3CF0088D834 /* SubscriberBootCamp.swift in Sources */,
 				52A66D6F29BF091000806DBE /* DragGestureBootcamp2.swift in Sources */,
 				520216A629C03CA900244213 /* MaskBootcamp.swift in Sources */,
 				52A66D6D29BF001200806DBE /* DragGestureBootcamp.swift in Sources */,
@@ -230,9 +240,11 @@
 				52A66D6729BED0BC00806DBE /* LongPressedGestureBootcamp.swift in Sources */,
 				52A66D6929BEE1D200806DBE /* MagnificationGestureBootcamp.swift in Sources */,
 				520216A229C021E800244213 /* GeometryReaderBootcamp.swift in Sources */,
+				52B5D3A029C4A21F0088D834 /* DownloadWithEscapingBootcamp.swift in Sources */,
 				520216B329C06D9E00244213 /* HapticsBootcamp.swift in Sources */,
 				52B5D36829C2FF530088D834 /* CodableBootcamp.swift in Sources */,
 				52A66D5929BECFD200806DBE /* SwiftfukThinkingContinuedLearningApp.swift in Sources */,
+				52B5D3A229C4BDD60088D834 /* TimerBootcamp.swift in Sources */,
 				52A66D6B29BEEB9B00806DBE /* RotationGestureBootcamp.swift in Sources */,
 				52B5D35E29C2D7420088D834 /* BackgroundThreadBootcamp.swift in Sources */,
 			);
